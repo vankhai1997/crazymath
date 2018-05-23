@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/tv_crazyy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/crazymath"
+        android:textColor="#00BCD4"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgbuttonn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_crazyy"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imgbutton" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:text="Het Thoi Gian"
+    android:textSize="50dp"
+    android:textStyle="bold"
+    android:textColor="@color/colorText"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/imgbuttonn"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content" />
+</RelativeLayout>

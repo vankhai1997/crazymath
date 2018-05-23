@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="400dp"
+
+        android:layout_height="400dp">
+
+        <TextView
+            android:id="@+id/tv_yourscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/yourscore"
+            android:textColor="@color/colorText"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_yourscore"
+            android:layout_marginLeft="250dp"
+            android:text="Time:"
+            android:textColor="@color/colorText"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/tv_yourscore"
+            android:textColor="@color/colorText"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/sothu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/sothu2"
+            android:layout_alignBottom="@+id/sothu2"
+
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:textColor="@color/colorText"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/tv_runtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_yourscore"
+            android:layout_toRightOf="@id/tv_yourscore"
+            android:textColor="@color/colorText"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/daucong"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/sothu1"
+            android:gravity="center"
+            android:text="+"
+
+            android:textColor="@color/colorText"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/sothu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/daucong"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:textColor="@color/colorText"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/daubang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/dapan"
+
+            android:layout_alignBottom="@+id/dapan"
+            android:layout_marginLeft="22dp"
+            android:layout_marginStart="22dp"
+
+            android:layout_toEndOf="@+id/sothu2"
+            android:layout_toRightOf="@+id/sothu2"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="="
+            android:textColor="@color/colorText"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/dapan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/daubang"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:textColor="@color/colorText"
+            android:textSize="45sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgtrue"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/imgtrue" />
+        <ImageView
+            android:id="@+id/imgfalse"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="70dp"
+            android:layout_toRightOf="@id/imgtrue"
+            android:src="@drawable/imgfalse" />
+    </RelativeLayout>
+</LinearLayout>

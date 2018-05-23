@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Crazymath</string>
+    <string name="crazymath">Crazy Math</string>
+    <string name="yourscore">Your Score:</string>
+</resources>
